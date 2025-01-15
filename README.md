@@ -1,5 +1,5 @@
 
-https://github.com/mikelarryzim143/resume/blob/main/index.html
+
 
 # Resume
 Here is a project I did CV one page using HTML and CSS and tailwind
@@ -11,3 +11,4 @@ You can find the project here: [Resume](https://github.com/mikelarryzim143/resum
 **GitHub URL:** [Resume](https://github.com/mikelarryzim143/resume)
 https://mikelarryzim143.github.io/resume
 
+https://roadmap.sh/projects/single-page-cv
