@@ -1,2 +1,9 @@
-here is a project i did cv one page using html ans css and tailwind
-https://github.com/mikelarryzim143/resume.git
+
+
+# My Awesome Project
+Here is a project I did CV one page using HTML and CSS and tailwind
+This project is a solution to the problem at hand. It demonstrates the use of Tailwind CSS to style a webpage.
+
+## Project URL
+
+You can find the project here: [Resume](https://github.com/mikelarryzim143/resume)
