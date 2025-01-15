@@ -1,4 +1,5 @@
 
+https://github.com/mikelarryzim143/resume/blob/main/index.html
 
 # Resume
 Here is a project I did CV one page using HTML and CSS and tailwind
