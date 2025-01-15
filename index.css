@@ -1,0 +1,39 @@
+body{
+    margin: 15px; 
+    padding: 80px;
+    
+   
+    font-family: "Roboto", Arial, Helvetica, sans-serif ; 
+    font-optical-sizing: auto; 
+    font-variation-settings: "wdth" 100;
+}
+
+
+
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <width>: Use a value from 75 to 100*/
+
+/* Define the unique class name for different styles */
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Use a value from 100 to 900 */
+    font-style: normal;
+    font-variation-settings: 
+      "wdth" 100; /* Use a value from 75 to 100 */
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 300; /* Lighter weight */
+    font-style: normal;
+    font-variation-settings: 
+      "wdth" 90; /* Different width */
+  }
+  
+
+
+
+

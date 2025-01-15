@@ -17,10 +17,17 @@
     
     <!-- Favicon will put in time when i understand it more --> 
      <link rel="icon" href="favicon.ico" type="resume\ml.ico">
+
+
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="/resume/index.css">
+     <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');</style>
 </head>
 <body>
-    <H1>Larry Last Murimi</H1>
-    <h2>Junior Developer</h2>
+    <div class="border-t-2 border-black w-1/2 "></div>
+    <H1 class="text-4xl mt-4 font-semibold pb-4">Larry Last Murimi</H1>
+    <h2 class="text-green-500 font-bold">Junior Developer</h2><br>
+
 
     <div class="info">
         <p>603 Electra Street <br>
@@ -29,18 +36,23 @@
             mikelarrymurimi@gmail.com
         </p>
     </div>
+      
+    <br>
 
-    <div class="skills">
-        <h3>Skills</h3>
+    <div class="skills ">
+        <h3 class="text-green-500 font-bold">Skills</h3>
         <p><span>Languages :</span>HTML, CSS, Javascript, C, C++, C#, VB.net, SQL</p>
         <p><span>Softwares :</span>Figma, Adobe Xd, Canva, Visual Studio, VS Code, MS SQL</p>
     </div>
 
+    <br>
+
     <div class="academic">
-        <h3>Education</h3>
-        <p id="sub-title">MacMaine School of Computing, Harare,Zimbabwe - <span>Diploma in Programming</span> </p>
-        <p>March 2019 to September 2020</p>
-        <ul>
+        <h3 class="text-green-500 font-bold">Education</h3>
+        <p class="text-sky-500 font-bold" id="sub-title">MacMaine School of Computing, Harare,Zimbabwe - <span>Diploma in Programming</span> </p>
+        <p class="font-bold">March 2019 to September 2020</p>
+        
+        <ul class="list-disc pl-5">
             <li>Programming Principles and Paradigms</li>
             <li>C Programming</li>
             <li>C++ Programming</li>
@@ -49,10 +61,13 @@
         </ul>
     </div>
 
+    <br>
+
     <div class="exp">
-        <h3>Experience</h3>
-        <p id="sub-title">Comarton Consultants, Harare, Zimbabwe - <span>System Analyst</span></p>
-        <ul>
+        <h3 class="text-green-500 font-bold">Experience</h3>
+        <p class="text-sky-500 font-bold" id="sub-title">Comarton Consultants, Harare, Zimbabwe - <span>System Analyst</span></p>
+        <p class="font-bold">March 2021 to September 2022</p>
+        <ul class="list-disc pl-5">
             <li>Maintained accurate information in the payroll system.</li>
             <li>Supported an efficient production system in a fast-paced environment by accurately
                 processing all new orders, and delegating tasks as each order required.</li>
@@ -66,9 +81,14 @@
         </ul>
         <p><span>Skills: </span>SQL, MS SQL, C#</p>
     </div>
+
+    <br>
+
     <footer>
-        <h3>Across the Internet</h3>
-        <p>linkedin.com/in/larrymurimi, github.com/mikelarryzim143</p>
+        <h3 class="text-green-500 font-bold mb-2">Across the Internet</h3> 
+        <ul class="list-disc list-inside"> 
+            <li> <a href="https://linkedin.com/in/larrymurimi" class="text-blue-500 underline hover:text-blue-700"> linkedin.com/in/larrymurimi </a> </li>
+             <li> <a href="https://github.com/mikelarryzim143" class="text-blue-500 underline hover:text-blue-700"> github.com/mikelarryzim143 </a> </li> </ul>
     </footer>
 </body>
 </html>
